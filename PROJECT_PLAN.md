@@ -1,6 +1,5 @@
 # CBIS-DDSM + MLOps — Project Plan (prompt for Cursor)
 
-> Paste this whole file into Cursor's chat (or reference it with `@PROJECT_PLAN.md`) at the start of each session. Then tell the agent which step you're on.
 
 ---
 
