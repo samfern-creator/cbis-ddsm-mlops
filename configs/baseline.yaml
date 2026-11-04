@@ -1,0 +1,15 @@
+# Data
+data_dir: ~/code/data/cbis-ddsm
+rois_csv: processed/rois.csv      # relative to data_dir
+
+# Images
+img_size: 224
+
+# Split: validation carved from the official TRAIN split, by patient
+val_frac: 0.15
+seed: 42
+
+# Speed
+subset_size: null                 # e.g. 300 for a quick test; null = use everything
+batch_size: 32
+num_workers: 0                    # 0 is safest on Mac
