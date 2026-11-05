@@ -13,3 +13,9 @@ seed: 42
 subset_size: null                 # e.g. 300 for a quick test; null = use everything
 batch_size: 32
 num_workers: 0                    # 0 is safest on Mac
+
+# Model + training
+pretrained: true                  # ImageNet weights
+lr: 0.0001
+epochs: 5
+output_dir: outputs               # checkpoints go here (gitignored)
